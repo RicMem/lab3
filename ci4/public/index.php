@@ -65,7 +65,7 @@ function test_input($data) {
 }
 ?>
 
-<h2>PHP Form Validation Example</h2>
+<h2>Fill up the form for me please </h2>
 <p><span class="error">* required field</span></p>
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
   <b>Name: <input type="text" name="name" value="<?php echo $name;?>">
@@ -134,7 +134,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 </div>
 <style>
  body {
-  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/65497cf9-d857-48c0-9fe3-5a993d74535e/d9xdmxx-258baa06-9f1d-4d7f-9757-139cb79b3e64.png/v1/fill/w_1024,h_630,strp/team_fortress_2_background_by_tdi_charliebrown_d9xdmxx-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjMwIiwicGF0aCI6IlwvZlwvNjU0OTdjZjktZDg1Ny00OGMwLTlmZTMtNWE5OTNkNzQ1MzVlXC9kOXhkbXh4LTI1OGJhYTA2LTlmMWQtNGQ3Zi05NzU3LTEzOWNiNzliM2U2NC5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.lar6MpMEYGUo5-5oMrCjrzaazfJ40ft6Qt8KNpIALFg');
+  background-image: url('https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg');
 }
 </style>
 </head>
